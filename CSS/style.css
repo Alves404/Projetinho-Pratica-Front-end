@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+    background-image: url(https://img.freepik.com/free-vector/modern-abstract-green-background-with-elegant-elements-vector-illustration_361591-3699.jpg?t=st=1734154026~exp=1734157626~hmac=f55feccffec350e6aa5dde5d267ca7450482542a935e2df69aeb16194b26c816&w=1380) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vh;
+    margin: flex;
+    padding: flex;
+}
+
+.container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px 0 10px;
+
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
