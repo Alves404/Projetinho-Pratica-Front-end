@@ -5,19 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário Simples</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/keyframes.css">
 </head>
 <body>
     <div class="container">
         <h1>Lista de Presença</h1>
         <form action="https://api.sheetmonkey.io/form/kMV2ntxPsoFjeqoPFcaAZ2" method="post">
-            <label for="nome">Nome:</label>
-            <input type="text" id="Nome" name="Nome" required>
+            <label class="form-label" for="nome">Nome:</label>
+            <input class="form-input" type="text" id="Nome" name="Nome" required>
 
-            <label for="Matricula">Matricula:</label>
-            <input type="number" id="Matricula" name="Matricula" required>
+            <label class="form-label" for="Matricula">Matricula:</label>
+            <input class="form-input" type="number" id="Matricula" name="Matricula" required>
 
-            <label for="Data">Data:</label>
-            <input type="date" id="Data" name="Data" required>
+            <label class="form-label" for="Data">Data:</label>
+            <input class="form-input" type="date" id="Data" name="Data" required>
 
 
             <button type="submit">Enviar</button>

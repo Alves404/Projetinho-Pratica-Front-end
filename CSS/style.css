@@ -1,15 +1,16 @@
 body {
-    display: flex;
-    align-items: center;
-
+    min-height: 100vh;
+    min-width: 100vw;
+    margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
-    background-image: url(https://img.freepik.com/free-vector/modern-abstract-green-background-with-elegant-elements-vector-illustration_361591-3699.jpg?t=st=1734154026~exp=1734157626~hmac=f55feccffec350e6aa5dde5d267ca7450482542a935e2df69aeb16194b26c816&w=1380) ;
+    background-image: url(https://images.unsplash.com/photo-1748467909877-a48b20f1400e?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
-    min-width: 100vh;
-    margin: flex;
-    padding: flex;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container {
@@ -21,17 +22,26 @@ body {
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: slide-in-elliptic-top-fwd 1s ease-out;
 }
 
 h1 {
     text-align: center;
     color: #000000;
+    animation: puff-in-center 1.5s ease-out; 
 }
 
 label {
     display: block;
     margin: 10px 0 5px;
 }
+.form-label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #000000;
+    font-weight: bold;
+}
+
 
 input {
     width: 100%;
@@ -39,6 +49,15 @@ input {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
 }
 
 button {
